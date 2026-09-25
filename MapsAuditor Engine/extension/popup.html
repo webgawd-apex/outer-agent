@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 260px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; padding: 14px; margin: 0; background: #f9fafb; }
+    h3 { margin-top: 0; color: #111827; font-size: 15px; text-align: center; margin-bottom: 12px; }
+    button { width: 100%; color: white; padding: 11px; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 13px; transition: background 0.2s; margin-bottom: 8px; }
+    #scrapeBtn { background: #d97706; }
+    #scrapeBtn:hover { background: #b45309; }
+    #stopBtn { background: #dc2626; }
+    #stopBtn:hover { background: #b91c1c; }
+    #status { margin-top: 10px; font-size: 12px; color: #4b5563; text-align: center; font-style: italic; line-height: 1.4; }
+    .note { font-size: 10px; color: #9ca3af; text-align: center; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h3>Footprint Bulk Scraper</h3>
+  <button id="scrapeBtn">Run Footprint Search Crawl</button>
+  <button id="stopBtn">Stop Active Crawl</button>
+  <div id="status">Navigate to a Maps search tab and run...</div>
+  <div class="note">Make sure bridge_server.py is running on port 5000</div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Maps Footprint Pipeline Scraper",
+  "version": "3.0",
+  "description": "Airtight Native Content Bridge for Realtime Background Lead Processing.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:5000/*",
+    "http://localhost:5000/*",
+    "https://*.google.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

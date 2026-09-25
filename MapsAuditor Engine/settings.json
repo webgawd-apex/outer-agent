@@ -1,0 +1,87 @@
+{
+  "_comment": "Edit this file to configure your outreach settings. Never share this file publicly.",
+
+  "sender": {
+    "name": "Daniel Joshua",
+    "email": "your@email.com",
+    "phone": ""
+  },
+
+  "outreach_message": "Hi! Quick question, do you ever go back through old quotes or leads that never closed? I help contractors turn those into new jobs. It's free to look into, and I only get paid if it works. Happy to explain more if useful.",
+
+  "form_fields": {
+    "name_field_value": "Daniel Joshua",
+    "email_field_value": "your@email.com",
+    "phone_field_value": "",
+    "subject_field_value": "Quick question about your old leads"
+  },
+
+  "pipeline": {
+    "batch_size": 20,
+    "email_delay_seconds": 8,
+    "daily_outreach_limit": 200,
+    "max_review_count": 25,
+    "min_opportunity_score": 60,
+    "follow_up_days": 3,
+    "skip_if_has_website": false
+  },
+
+  "email_provider": "gmail",
+
+  "gmail": {
+    "email": "your@gmail.com",
+    "app_password": "YOUR_GMAIL_APP_PASSWORD"
+  },
+
+  "sendgrid": {
+    "api_key": "YOUR_SENDGRID_API_KEY_HERE",
+    "from_email": "your@email.com",
+    "from_name": "Daniel Joshua"
+  },
+
+  "gemini": {
+    "api_key": "AIzaSyD4vYPAR3vsCShDWs14x0H_ebZB_-IAiaE",
+    "model": "gemini-1.5-flash"
+  },
+
+  "notifications": {
+    "discord_webhook_url": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "notify_on_captcha": true,
+    "notify_on_reply": true,
+    "notify_on_form_submit": true,
+    "notify_on_email_sent": false,
+    "notify_on_error": true
+  },
+
+  "server": {
+    "port": 5000,
+    "health_endpoint": "/health"
+  },
+
+  "targets": {
+    "niches": [
+      "Roofing",
+      "Kitchen remodeling",
+      "Bathroom remodeling / walk-in tub conversion",
+      "HVAC full-system replacement",
+      "Windows & Doors",
+      "Home additions / ADU builders",
+      "Siding replacement",
+      "Fencing (incl. pool fencing/gates)",
+      "Deck & patio construction",
+      "Foundation repair / waterproofing"
+    ],
+    "cities": [
+      "Phoenix",
+      "Scottsdale",
+      "Mesa",
+      "Tempe",
+      "Chandler",
+      "Gilbert",
+      "Glendale",
+      "Peoria",
+      "Surprise",
+      "Queen Creek"
+    ]
+  }
+}

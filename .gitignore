@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.db
+leads.db
+daily_stats.json
+captcha_screenshots/
+gmail_token.json
+client_secret.json
+.vscode/
+.idea/
