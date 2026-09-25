@@ -1,8 +1,8 @@
 {
-  "_comment": "Edit this file to configure your outreach settings. Never share this file publicly.",
+  "_comment": "Copy this file to settings.json and configure your settings.",
 
   "sender": {
-    "name": "Daniel Joshua",
+    "name": "Your Name",
     "email": "your@email.com",
     "phone": ""
   },
@@ -10,7 +10,7 @@
   "outreach_message": "Hi! Quick question, do you ever go back through old quotes or leads that never closed? I help contractors turn those into new jobs. It's free to look into, and I only get paid if it works. Happy to explain more if useful.",
 
   "form_fields": {
-    "name_field_value": "Daniel Joshua",
+    "name_field_value": "Your Name",
     "email_field_value": "your@email.com",
     "phone_field_value": "",
     "subject_field_value": "Quick question about your old leads"
@@ -36,11 +36,11 @@
   "sendgrid": {
     "api_key": "YOUR_SENDGRID_API_KEY_HERE",
     "from_email": "your@email.com",
-    "from_name": "Daniel Joshua"
+    "from_name": "Your Name"
   },
 
   "gemini": {
-    "api_key": "AIzaSyD4vYPAR3vsCShDWs14x0H_ebZB_-IAiaE",
+    "api_key": "YOUR_GEMINI_API_KEY_HERE",
     "model": "gemini-1.5-flash"
   },
 
